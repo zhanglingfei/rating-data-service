@@ -1,10 +1,10 @@
 package io.javabrains.ratingdataservice.models;
 
-public class rating {
+public class Rating {
     private String movieId;
     private int rating;
 
-    public rating(String movieId, int rating) {
+    public Rating(String movieId, int rating) {
         this.movieId = movieId;
         this.rating = rating;
     }
