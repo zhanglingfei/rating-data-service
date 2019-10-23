@@ -27,7 +27,7 @@ public class RatingDataService {
         );
         UserRatings userRatings = new UserRatings();
         userRatings.setUserRating(ratings);
-        return userRatings;
+        return userRatings;//this is returned for microservice called by movie-catalog-service
 
 
     }
